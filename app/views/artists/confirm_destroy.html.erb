@@ -1,0 +1,9 @@
+<h1>Подтвердите удаление артиста</h1>
+
+<p>Вы уверены, что хотите удалить артиста "<%= @artist.name %>"?</p>
+
+<%= form_with(model: @artist, url: artist_path(@artist), method: :delete, local: true) do |form| %>
+  <%= form.submit 'Удалить', data: { confirm: 'Вы уверены?' } %>
+<% end %>
+
+<%= link_to 'Отмена', artists_path %>

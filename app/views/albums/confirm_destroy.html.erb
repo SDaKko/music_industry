@@ -1,0 +1,9 @@
+<h1>Подтвердите удаление альбома</h1>
+
+<p>Вы уверены, что хотите удалить альбом "<%= @album.title %>"?</p>
+
+<%= form_with(model: @album, url: artist_album_path(@artist, @album), method: :delete, local: true) do |form| %>
+  <%= form.submit 'Удалить', data: { confirm: 'Вы уверены?' } %>
+<% end %>
+
+<%= link_to 'Отмена', artist_albums_path %>

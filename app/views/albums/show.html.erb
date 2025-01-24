@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Название:</strong>
+  <%= @album.title %>
+</p>
+
+<p>
+  <strong>Записывающая студия:</strong>
+  <%= @album.record_label %>
+</p>
+
+<p>
+  <strong>Жанр альбома:</strong>
+  <%= @album.album_genre %>
+</p>
+
+<p>
+  <strong>Количество треков:</strong>
+  <%= @album.number_of_tracks %>
+</p>
+
+<%= link_to 'Редактировать', edit_artist_album_path(@artist, @album) %> |
+<%= link_to 'Назад', artist_albums_path(@artist) %>

@@ -1,0 +1,290 @@
+<mxfile host="Electron" modified="2025-01-24T12:25:16.555Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="WQNGJ3G1q895y_XqmIx3" version="23.1.5" type="device">
+  <diagram name="Страница — 1" id="pRmdVoRUy1hgDrz9bXuf">
+    <mxGraphModel dx="368" dy="221" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=30;" parent="1" vertex="1">
+          <mxGeometry x="890" y="40" width="20" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="kjRnv1_tp_0MxHiD8yq1-1" vertex="1">
+          <mxGeometry x="5" y="50" width="10" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-3" value="новый альбом" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0.13;entryY=0.109;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kjRnv1_tp_0MxHiD8yq1-2" target="kjRnv1_tp_0MxHiD8yq1-5" edge="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="910" y="120" as="sourcePoint" />
+            <mxPoint x="1024" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-4" value="AlbumsView (index.html.erb)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="974" y="40" width="100" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="kjRnv1_tp_0MxHiD8yq1-4" vertex="1">
+          <mxGeometry x="45" y="60" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-6" value="GET /artists/:artist_id/albums/new" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;entryX=0.06;entryY=0.106;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kjRnv1_tp_0MxHiD8yq1-5" target="kjRnv1_tp_0MxHiD8yq1-8" edge="1">
+          <mxGeometry x="0.0003" relative="1" as="geometry">
+            <mxPoint x="1028.9999999999998" y="120" as="sourcePoint" />
+            <mxPoint x="1283.43" y="125.44000000000005" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-7" value="AlbumsController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="1180" y="40" width="100" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="kjRnv1_tp_0MxHiD8yq1-7" vertex="1">
+          <mxGeometry x="45" y="70" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="kjRnv1_tp_0MxHiD8yq1-7" vertex="1">
+          <mxGeometry x="45" y="300" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="kjRnv1_tp_0MxHiD8yq1-7" vertex="1">
+          <mxGeometry x="45" y="480" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" parent="kjRnv1_tp_0MxHiD8yq1-7" source="kjRnv1_tp_0MxHiD8yq1-9" target="kjRnv1_tp_0MxHiD8yq1-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-12" value="Artist" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="1570" y="40" width="100" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="kjRnv1_tp_0MxHiD8yq1-12" vertex="1">
+          <mxGeometry x="45" y="90" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="kjRnv1_tp_0MxHiD8yq1-12" vertex="1">
+          <mxGeometry x="45" y="490" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-48" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="kjRnv1_tp_0MxHiD8yq1-12" vertex="1">
+          <mxGeometry x="45" y="320" width="10" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-16" value="AlbumsView (show.html.erb)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="1950" y="40" width="100" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-75" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="kjRnv1_tp_0MxHiD8yq1-16" vertex="1">
+          <mxGeometry x="45" y="650" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-17" value="build()" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;entryX=0.019;entryY=0.178;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kjRnv1_tp_0MxHiD8yq1-8" target="kjRnv1_tp_0MxHiD8yq1-42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1235.0000000000002" y="220" as="sourcePoint" />
+            <mxPoint x="1612.8000000000002" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-18" value="AlbumsView (new.html.erb)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="1410" y="40" width="100" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="kjRnv1_tp_0MxHiD8yq1-18" vertex="1">
+          <mxGeometry x="45" y="210" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-20" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="1820" y="40" width="110" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="kjRnv1_tp_0MxHiD8yq1-20" vertex="1">
+          <mxGeometry x="50" y="390" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="kjRnv1_tp_0MxHiD8yq1-20" vertex="1">
+          <mxGeometry x="50" y="490" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-51" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="kjRnv1_tp_0MxHiD8yq1-20" vertex="1">
+          <mxGeometry x="50" y="70" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-54" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="kjRnv1_tp_0MxHiD8yq1-20" vertex="1">
+          <mxGeometry x="50" y="330" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-55" value="Выбранная запись" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="kjRnv1_tp_0MxHiD8yq1-20" source="kjRnv1_tp_0MxHiD8yq1-54" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="360" as="sourcePoint" />
+            <mxPoint x="-195" y="361" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-71" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="kjRnv1_tp_0MxHiD8yq1-20" vertex="1">
+          <mxGeometry x="50" y="600" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-26" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" source="kjRnv1_tp_0MxHiD8yq1-42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1615" y="230" as="sourcePoint" />
+            <mxPoint x="1235.0000000000002" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-27" value="Рендер new.html" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;exitX=1.067;exitY=0.891;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1235.67" y="259.99999999999994" as="sourcePoint" />
+            <mxPoint x="1455" y="259.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-28" value="Форма добавления альбома" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.761;entryY=0.297;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1459.78" y="290.0000000000001" as="sourcePoint" />
+            <mxPoint x="909.9999999999998" y="290.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-29" value="Заполняет форму" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="905" y="310" as="sourcePoint" />
+            <mxPoint x="1455" y="310.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-30" value="Нажимает &quot;Сохранить альбом&quot;" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;exitX=0.9;exitY=0.415;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="904.0000000000001" y="330.0000000000001" as="sourcePoint" />
+            <mxPoint x="1455" y="330.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-31" value="Отправляет форму POST /artists/:artist_id/albums" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;entryX=1.023;entryY=0.168;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1455" y="360" as="sourcePoint" />
+            <mxPoint x="1235.23" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-32" value="build(album_params)" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;exitX=0.978;exitY=0.607;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="kjRnv1_tp_0MxHiD8yq1-9" target="kjRnv1_tp_0MxHiD8yq1-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="430" as="sourcePoint" />
+            <mxPoint x="1619.82" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-35" value="Альбом создан" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" source="kjRnv1_tp_0MxHiD8yq1-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1616.8000000000002" y="469.99500000000006" as="sourcePoint" />
+            <mxPoint x="1235" y="469.99500000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-36" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;GET /artists/:artist_id/albums/:id&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="490" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-37" value="find(:artist_id)" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;entryX=-0.002;entryY=0.266;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kjRnv1_tp_0MxHiD8yq1-10" target="kjRnv1_tp_0MxHiD8yq1-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="549" as="sourcePoint" />
+            <mxPoint x="1610" y="549" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-38" value="Данные артиста" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.18;exitY=0.777;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1612" y="590" as="sourcePoint" />
+            <mxPoint x="1235" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-39" value="SELECT * FROM artists WHERE id = {artist_id}" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;entryX=-0.143;entryY=0.422;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kjRnv1_tp_0MxHiD8yq1-15" target="kjRnv1_tp_0MxHiD8yq1-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1370" y="500" as="sourcePoint" />
+            <mxPoint x="1750" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-40" value="Выбранная запись" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=-0.086;exitY=0.701;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="kjRnv1_tp_0MxHiD8yq1-25" target="kjRnv1_tp_0MxHiD8yq1-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1780" y="500" as="sourcePoint" />
+            <mxPoint x="1400" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-41" value="Album" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="1700" y="40" width="100" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-42" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="kjRnv1_tp_0MxHiD8yq1-41" vertex="1">
+          <mxGeometry x="45" y="160" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-44" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="kjRnv1_tp_0MxHiD8yq1-41" vertex="1">
+          <mxGeometry x="45" y="380" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-66" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="kjRnv1_tp_0MxHiD8yq1-41" vertex="1">
+          <mxGeometry x="44" y="590" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-46" value="find(:artist_id)" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;exitX=1.028;exitY=0.188;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="kjRnv1_tp_0MxHiD8yq1-8" target="kjRnv1_tp_0MxHiD8yq1-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="140" as="sourcePoint" />
+            <mxPoint x="1390" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-47" value="Данные артиста" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.088;exitY=0.435;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1615.88" y="180.39999999999998" as="sourcePoint" />
+            <mxPoint x="1235" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1550" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-49" value="find(:artist_id)" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1235" y="379.74" as="sourcePoint" />
+            <mxPoint x="1615" y="379.74" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-50" value="Данные артиста" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1615" y="410" as="sourcePoint" />
+            <mxPoint x="1235" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1545" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-53" value="Выбранная запись" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.141;exitY=0.679;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="kjRnv1_tp_0MxHiD8yq1-51" target="kjRnv1_tp_0MxHiD8yq1-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1880" y="170" as="sourcePoint" />
+            <mxPoint x="1430" y="171" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-52" value="SELECT * FROM artists WHERE id = {artist_id}" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;entryX=-0.054;entryY=0.435;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kjRnv1_tp_0MxHiD8yq1-13" target="kjRnv1_tp_0MxHiD8yq1-51" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1630" y="140" as="sourcePoint" />
+            <mxPoint x="1875" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-56" value="SELECT * FROM artists WHERE id = {artist_id}" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;entryX=-0.054;entryY=0.435;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1625.54" y="384.74" as="sourcePoint" />
+            <mxPoint x="1870" y="384.89" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-58" value="INSERT INTO albums" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" parent="1" source="kjRnv1_tp_0MxHiD8yq1-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1754" y="440" as="sourcePoint" />
+            <mxPoint x="1869" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-59" value="Данные сохранены" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1869" y="460" as="sourcePoint" />
+            <mxPoint x="1754" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-24" value="Рендер show.html" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;exitX=1.043;exitY=0.901;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1235.4299999999998" y="710" as="sourcePoint" />
+            <mxPoint x="1995" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-22" value="show.html" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" source="kjRnv1_tp_0MxHiD8yq1-75" target="kjRnv1_tp_0MxHiD8yq1-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1990" y="730" as="sourcePoint" />
+            <mxPoint x="990" y="730.0000000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1815" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-67" value="find(:id)" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;entryX=0.016;entryY=0.282;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kjRnv1_tp_0MxHiD8yq1-10" target="kjRnv1_tp_0MxHiD8yq1-66" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="640" as="sourcePoint" />
+            <mxPoint x="1610" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-68" value="Данные альбома" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.072;exitY=0.858;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="kjRnv1_tp_0MxHiD8yq1-66" target="kjRnv1_tp_0MxHiD8yq1-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1617" y="681" as="sourcePoint" />
+            <mxPoint x="1240" y="681" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-72" value="SELECT * FROM albums WHERE id = {id}" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;entryX=-0.185;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1754" y="660" as="sourcePoint" />
+            <mxPoint x="1868.15" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjRnv1_tp_0MxHiD8yq1-73" value="Выбранная запись" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1870" y="680" as="sourcePoint" />
+            <mxPoint x="1754" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,28 @@
+<h1>Артисты</h1>
+
+<%= link_to 'Новый артист', new_artist_path %>
+
+<table>
+  <thead>
+    <tr>
+      <th>Имя</th>
+      <th>Жанр</th>
+      <th>Страна</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @artists.each do |artist| %>
+      <tr>
+        <td><%= artist.formatted_name %></td>
+        <td><%= artist.genre %></td>
+        <td><%= artist.country %></td>
+        <td><%= link_to 'Показать', artist_path(artist) %></td>
+        <td><%= link_to 'Альбомы', artist_albums_path(artist) %></td>
+        <td><%= link_to 'Редактировать', edit_artist_path(artist) %></td>
+        <td><%= link_to 'Удалить', confirm_destroy_artist_path(artist), method: :get %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

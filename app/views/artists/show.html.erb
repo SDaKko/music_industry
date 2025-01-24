@@ -1,0 +1,34 @@
+<h1><%= @artist.formatted_name %></h1>
+
+<p>
+  <strong>Имя:</strong>
+  <%= @artist.name %>
+</p>
+
+<p>
+  <strong>Фамилия:</strong>
+  <%= @artist.surname %>
+</p>
+ <p>
+  <strong>Отчество:</strong>
+  <%= @artist.patronymic %>
+</p>
+
+<p>
+  <strong>Жанр:</strong>
+  <%= @artist.genre %>
+</p>
+
+<p>
+  <strong>Страна:</strong>
+  <%= @artist.country %>
+</p>
+<p>
+  <strong>Псевдоним:</strong>
+  <%= @artist.pseudonym %>
+</p>
+
+
+<%= link_to 'Альбомы', artist_albums_path(@artist) %> |
+<%= link_to 'Редактировать', edit_artist_path(@artist) %> |
+<%= link_to 'Назад', artists_path %>
